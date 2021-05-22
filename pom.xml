@@ -1,0 +1,29 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>academy.kovalevskyi</groupId>
+	<artifactId>javadeepdive</artifactId>
+	<version>1</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>16</maven.compiler.source>
+		<maven.compiler.target>16</maven.compiler.target>
+        <java.version>16</java.version>
+	</properties>
+    <build>
+   <plugins>
+    <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.2.1</version>
+        <executions>
+            <execution>
+                <goals>
+                    <goal>java</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
+</plugins>
+  </build>
+</project>
